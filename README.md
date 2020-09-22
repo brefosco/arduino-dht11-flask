@@ -15,12 +15,10 @@ Breadboard (optional)
 
 
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
+## Deploy 📦
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
+Run python flasking.py while Arduino UNO has the script loaded and the wire connections in place. You can also modify the PIN in a static variable inside the arduino file.  
 
 ## Built in  🛠️
 
