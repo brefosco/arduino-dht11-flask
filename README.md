@@ -1,4 +1,4 @@
-# arduino-dht11-flask
+# Arduino Temperature/Humidity - Flask
 Project connecting an Arduino Uno to a DHT11 Temperature/Humidity sensor and displaying it using flask. 
 
 ### Pre-requisites 📋
