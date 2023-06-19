@@ -1,30 +1,25 @@
-# Arduino Temperature/Humidity - Flask
-Project connecting an Arduino Uno to a DHT11 Temperature/Humidity sensor and displaying it using flask. 
+# arduino-dht11-flask
 
-### Pre-requisites 📋
+## Description
 
-```
-Arduino UNO
-Arduino IDE / Arduino Online IDE
-DHT11 Humidity sensor
-Jumper Wires
-Breadboard (optional)
-```
+`arduino-dht11-flask` is a project that connects an Arduino Uno to a DHT11 Temperature/Humidity sensor and displays the sensor readings on a web page using Flask.
 
+## Installation
 
-## Deploy 📦
+1.  Clone this repository.
+2.  Install the required Python packages using pip:
+    `pip install -r requirements.txt`
 
-Run python flasking.py while Arduino UNO has the script loaded and the wire connections in place. You can also modify the PIN in a static variable inside the arduino file.  
+## Hardware Setup
 
-## Built in  🛠️
+1.  Connect the DHT11 sensor to your Arduino Uno.
+2.  Load the Arduino script from the `dhtPython` directory onto your Arduino Uno.
+3.  Ensure the serial port and baud rate in the Arduino script match the ones in `flasking.py`.
 
+## Usage
 
-* [Flask] - Back end and connection displaying 
-* [Arduino] - Capturar datos sobre humedad y temperatura
+Run the Flask application using Python:
 
+`python flasking.py`
 
-## Author ✒️
-
-**Bruno Refosco** 
-
----
+The application will start a web server and display the temperature and humidity readings from the Arduino on the web page at `http://localhost:5000`.
